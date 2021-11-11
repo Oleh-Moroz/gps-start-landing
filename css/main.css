@@ -1,4 +1,4 @@
-/*@import "../style/animate.css";*/
+@import "../style/animate.css";
 
 html {
   background: #fff;
@@ -153,16 +153,13 @@ body {
 
 .row {
   width: 100%;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: start;
-      align-items: flex-start;
-  -ms-flex-pack: start;
-      justify-content: flex-start;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
 }
 
+.testimonial-slide .owl-stage-outer .owl-stage {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -190,14 +187,12 @@ header::before {
 }
 
 .col-55 {
-  -ms-flex: 0 0 55%;
-      flex: 0 0 55%;
+  flex: 0 0 55%;
   max-width: 55%;
 }
 
 .col-50 {
-  -ms-flex: 0 0 50%;
-      flex: 0 0 50%;
+  flex: 0 0 50%;
   max-width: 50%;
 }
 
@@ -241,12 +236,9 @@ header::before {
 
 .logo {
   width: 100%;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .form-row {
@@ -298,14 +290,10 @@ header::before {
   font-size: 12px;
 }
 .form-row-checkbox {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: start;
-      justify-content: flex-start;
-  -ms-flex-direction: row-reverse;
-      flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
   margin: 25px auto;
   padding: 0;
 }
@@ -333,12 +321,9 @@ header::before {
   font-size: 23px;
   box-sizing: border-box;
   padding: 15px 0;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
+  align-items: center;
+  justify-content: center;
   line-height: 1em;
   transition: all 0.5s linear;
 }
@@ -359,12 +344,9 @@ header::before {
   font-size: 18px;
   box-sizing: border-box;
   padding: 15px 0;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
+  align-items: center;
+  justify-content: center;
   line-height: 1em;
   transition: all 0.5s linear;
   margin: 0 10px;
@@ -609,32 +591,43 @@ h2.section-title {
 
 .brands-logo-item {
   margin: 16px auto;
-  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .brands-logo-item:nth-child(2) {
-  animation-duration: 1s;
-  animation-delay: .3s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: .3s;
+          animation-delay: .3s;
 }
 
 .brands-logo-item:nth-child(3) {
-  animation-duration: 1s;
-  animation-delay: .6s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s;
 }
 
 .brands-logo-item:nth-child(4) {
-  animation-duration: 1s;
-  animation-delay: .9s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: .9s;
+          animation-delay: .9s;
 }
 
 .brands-logo-item:nth-child(5) {
-  animation-duration: 1s;
-  animation-delay: 1.2s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
 }
 
 .brands-logo-item:nth-child(6) {
-  animation-duration: 1s;
-  animation-delay: 1.5s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
 }
 
 .brands-logo-item img {
@@ -658,13 +651,17 @@ h2.section-title {
 .plans-item {
   width: 47%;
   margin: 50px auto;
-  animation-duration: 1s;
-  animation-delay: .3s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: .3s;
+          animation-delay: .3s;
 }
 
 .plans-item:nth-child(2) {
-  animation-duration: 1s;
-  animation-delay: .6s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s;
 }
 
 .plans-image {
@@ -679,7 +676,8 @@ h2.section-title {
 }
 
 .plans-image img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .eld-name {
@@ -711,8 +709,10 @@ h2.section-title {
 
 .hours-red {
   color: #D42B2D;
-  animation-duration: 1s;
-  animation-delay: 1.2s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
 }
 
 .hours-red::before {
@@ -726,8 +726,10 @@ h2.section-title {
 
 .hours-green {
   color: #4BAE48;
-  animation-duration: 1s;
-  animation-delay: .8s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: .8s;
+          animation-delay: .8s;
 }
 
 .hours-green::before {
@@ -751,14 +753,18 @@ h2.section-title {
   align-items: center;
   justify-content: flex-start;
   min-height: 180px;
-  animation-duration: 1s;
-  animation-delay: 0s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .plans-description-red {
   background: #E92628;
-  animation-duration: 1s;
-  animation-delay: .3s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: .3s;
+          animation-delay: .3s;
 }
 
 .plans-description-red::before {
@@ -792,11 +798,8 @@ h2.section-title {
   font-size: 23px;
   box-sizing: border-box;
   padding: 15px 0;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
   align-items: center;
-  -ms-flex-pack: center;
   justify-content: center;
   line-height: 1em;
   transition: all 0.5s linear;
@@ -860,15 +863,13 @@ h2.section-title {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   z-index: 10;
   cursor: pointer;
   transition: all .5s linear;
 }
 
 .video-youtube .video-youtube__new-play-btn:hover {
-  -webkit-transform: translate(-50%, -50%) scale(1.1);
   transform: translate(-50%, -50%) scale(1.1);
 }
 
@@ -949,8 +950,10 @@ h2.section-title {
   align-items: center;
   justify-content: center;
   margin: 5px;
-  animation-duration: 1s;
-  animation-delay: 0s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
   transition: all .3s linear;
 }
 
@@ -959,28 +962,38 @@ h2.section-title {
 }
 
 .footer-social-links a:nth-child(2) {
-  animation-duration: 1s;
-  animation-delay: .1s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: .1s;
+          animation-delay: .1s;
 }
 
 .footer-social-links a:nth-child(3) {
-  animation-duration: 1s;
-  animation-delay: .2s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: .2s;
+          animation-delay: .2s;
 }
 
 .footer-social-links a:nth-child(4) {
-  animation-duration: 1s;
-  animation-delay: .3s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: .3s;
+          animation-delay: .3s;
 }
 
 .footer-social-links a:nth-child(5) {
-  animation-duration: 1s;
-  animation-delay: .4s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
 }
 
 .footer-social-links a:nth-child(6) {
-  animation-duration: 1s;
-  animation-delay: .5s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
 }
 
 @media screen and (min-width: 1800px) {
@@ -1040,7 +1053,6 @@ h2.section-title {
 
 @media screen and (max-width: 960px) {
   .col-50, .col-55 {
-    -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
