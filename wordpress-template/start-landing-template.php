@@ -1,28 +1,15 @@
+<?php
+/*
+  Template Name: Landing start
+ */
+?>
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Promo landing</title>
-    <base href="#">
-    <meta name="description" content="Promo landing">
-    <meta property="og:title" content="Promo landing">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="#">
-    <meta property="og:image" content="assets/image/placeholder.webp">
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-    <meta property="og:site_name" content="Promo landing">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap&v=74c3d7303c262c743027cc5624b0f3bc" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link href="css/main.css" rel="stylesheet">
-    </head>
-    <body>
+<!-- Header -->
+<?php get_header('start'); ?>
+<!-- end.Header -->
+<!-- Content -->
 
-    <header>
+<header>
                 <div class="container">
                     <div class="row">
                         <div class="col-55 header-content-col animated animate__fadeIn">
@@ -30,7 +17,7 @@
                         </div>
                         <div class="col-50 main-form-wrap animated animate__fadeIn">
                             <div class="logo">
-                                <img src="img/logo.webp" alt="GPSTab logo" width="78" height="97">
+                                <img src="<?= get_template_directory_uri()?>/start-landing/img/logo.webp" alt="GPSTab logo" width="78" height="97">
                             </div>
                             <h2>Sign up today for your free 7 day trial</h2>
 
@@ -135,7 +122,7 @@
                             After going through 5 ELDs, I am glad I finally landed on GPSTab! So simple for my drivers to use.
                         </div>
                         <div class="testimonial-stars">
-                            <img src="img/stars.webp" width="175" height="28">
+                            <img src="<?= get_template_directory_uri()?>/start-landing/img/stars.webp" width="175" height="28">
                         </div>
                     </div>
 
@@ -157,7 +144,7 @@
                             see what my driver is doing.
                         </div>
                         <div class="testimonial-stars">
-                            <img src="img/stars.webp" width="175" height="28">
+                            <img src="<?= get_template_directory_uri()?>/start-landing/img/stars.webp" width="175" height="28">
                         </div>
                     </div>
 
@@ -177,7 +164,7 @@ languages in customer support and ability to send
 my drivers location to the brokers.
                         </div>
                         <div class="testimonial-stars">
-                            <img src="img/stars.webp" width="175" height="28">
+                            <img src="<?= get_template_directory_uri()?>/start-landing/img/stars.webp" width="175" height="28">
                         </div>
                     </div>
 
@@ -197,7 +184,7 @@ customer service were very quick and professional
 on fixing my issue.
                         </div>
                         <div class="testimonial-stars">
-                            <img src="img/stars.webp" width="175" height="28">
+                            <img src="<?= get_template_directory_uri()?>/start-landing/img/stars.webp" width="175" height="28">
                         </div>
                     </div>
 
@@ -217,7 +204,7 @@ Dispatch is huge and helps us keep everything in
 order.
                         </div>
                         <div class="testimonial-stars">
-                            <img src="img/stars.webp" width="175" height="28">
+                            <img src="<?= get_template_directory_uri()?>/start-landing/img/stars.webp" width="175" height="28">
                         </div>
                     </div>
 
@@ -238,7 +225,7 @@ them to see their shipments location. It’s helped
 me get a lt of new customers.
                         </div>
                         <div class="testimonial-stars">
-                            <img src="img/stars.webp" width="175" height="28">
+                            <img src="<?= get_template_directory_uri()?>/start-landing/img/stars.webp" width="175" height="28">
                         </div>
                     </div>
                 </div>
@@ -263,16 +250,16 @@ me get a lt of new customers.
 
                 <div class="col-70 brands-logo_wrap">
                     <div class="brands-logo-item animated animate__fadeInUp">
-                        <img src="img/logo-1.webp" alt="gpstab-gats-logo">
+                        <img src="<?= get_template_directory_uri()?>/start-landing/img/logo-1.webp" alt="gpstab-gats-logo">
                     </div>
                     <div class="brands-logo-item animated animate__fadeInUp">
-                        <img src="img/logo-2.webp" alt="gpstab-overdrive-logo">
+                        <img src="<?= get_template_directory_uri()?>/start-landing/img/logo-2.webp" alt="gpstab-overdrive-logo">
                     </div>
                     <div class="brands-logo-item animated animate__fadeInUp">
-                        <img src="img/logo-3.webp" alt="gpstab-freightwaves-logo">
+                        <img src="<?= get_template_directory_uri()?>/start-landing/img/logo-3.webp" alt="gpstab-freightwaves-logo">
                     </div>
                     <div class="brands-logo-item animated animate__fadeInUp">
-                        <img src="img/logo-4.webp" alt="gpstab-califurnia-logo">
+                        <img src="<?= get_template_directory_uri()?>/start-landing/img/logo-4.webp" alt="gpstab-califurnia-logo">
                     </div>
                 </div>
             </div>
@@ -299,7 +286,7 @@ me get a lt of new customers.
                         8:00
                     </div>
                     <div class="plans-image">
-                        <img src="img/plans-1.webp" alt="Other ELDs" width="586" height="530">
+                        <img src="<?= get_template_directory_uri()?>/start-landing/img/plans-1.webp" alt="Other ELDs" width="586" height="530">
                         <div class="eld-name">
                             Other ELDs
                         </div>
@@ -315,7 +302,7 @@ me get a lt of new customers.
                         11:00
                     </div>
                     <div class="plans-image">
-                        <img src="img/plans-2.webp" alt="GPSTab ELD" width="586" height="530">
+                        <img src="<?= get_template_directory_uri()?>/start-landing/img/plans-2.webp" alt="GPSTab ELD" width="586" height="530">
                         <div class="eld-name">
                             GPSTab ELD
                         </div>
@@ -396,31 +383,31 @@ me get a lt of new customers.
             <div class="row">
                 <div class="footer-social-links">
                     <a href="#" target="_blank" class="animated animate__fadeInUp">
-                        <img src="img/social-1.svg" alt="gpstab-tiktok" width="73" height="73">
+                        <img src="<?= get_template_directory_uri()?>/start-landing/img/social-1.svg" alt="gpstab-tiktok" width="73" height="73">
                     </a>
                     <a href="https://www.youtube.com/channel/UC_Scq-p5daVZ3TorAJ5kmVw" target="_blank" class="animated animate__fadeInUp">
-                        <img src="img/social-2.svg" alt="gpstab-youtube" width="73" height="73">
+                        <img src="<?= get_template_directory_uri()?>/start-landing/img/social-2.svg" alt="gpstab-youtube" width="73" height="73">
                     </a>
                     <a href="#" target="_blank" class="animated animate__fadeInUp">
-                        <img src="img/social-3.svg" alt="gpstab-instagram" width="73" height="73">
+                        <img src="<?= get_template_directory_uri()?>/start-landing/img/social-3.svg" alt="gpstab-instagram" width="73" height="73">
                     </a>
                     <a href="#" target="_blank" class="animated animate__fadeInUp">
-                        <img src="img/social-4.svg" alt="gpstab-facebook" width="73" height="73">
+                        <img src="<?= get_template_directory_uri()?>/start-landing/img/social-4.svg" alt="gpstab-facebook" width="73" height="73">
                     </a>
                     <a href="https://gpstab.com/" target="_blank" class="animated animate__fadeInUp">
-                        <img src="img/social-5.svg" alt="gpstab" width="73" height="73">
+                        <img src="<?= get_template_directory_uri()?>/start-landing/img/social-5.svg" alt="gpstab" width="73" height="73">
                     </a>
                     <a href="#" target="_blank" class="animated animate__fadeInUp">
-                        <img src="img/social-6.svg" alt="gpstab-mail" width="73" height="73">
+                        <img src="<?= get_template_directory_uri()?>/start-landing/img/social-6.svg" alt="gpstab-mail" width="73" height="73">
                     </a>
                 </div>
             </div>
         </div>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="js/animate.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js" type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
-</body>
-</html>
+
+
+<!-- .content -->
+
+<!-- Footer -->
+<?php get_footer('start'); ?>
+<!-- end.Footer -->
