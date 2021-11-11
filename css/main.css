@@ -163,7 +163,6 @@ body {
       flex-wrap: wrap;
 }
 
-.testimonial-slide .owl-stage-outer .owl-stage {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -986,7 +985,7 @@ h2.section-title {
 
 @media screen and (min-width: 1800px) {
   header::before {
-    background: url("../img/bg-header.webp") center -200% /cover no-repeat;
+    background: url("../img/bg-header.webp") center 0 /cover no-repeat;
     min-height: 640px;
   }
 
