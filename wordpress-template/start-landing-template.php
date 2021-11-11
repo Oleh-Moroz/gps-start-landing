@@ -388,10 +388,10 @@ me get a lt of new customers.
                     <a href="https://www.youtube.com/channel/UC_Scq-p5daVZ3TorAJ5kmVw" target="_blank" class="animated animate__fadeInUp">
                         <img src="<?= get_template_directory_uri()?>/start-landing/img/social-2.svg" alt="gpstab-youtube" width="73" height="73">
                     </a>
-                    <a href="#" target="_blank" class="animated animate__fadeInUp">
+                    <a href="https://www.instagram.com/gpstab/" target="_blank" class="animated animate__fadeInUp">
                         <img src="<?= get_template_directory_uri()?>/start-landing/img/social-3.svg" alt="gpstab-instagram" width="73" height="73">
                     </a>
-                    <a href="#" target="_blank" class="animated animate__fadeInUp">
+                    <a href="https://www.facebook.com/GPSTab/" target="_blank" class="animated animate__fadeInUp">
                         <img src="<?= get_template_directory_uri()?>/start-landing/img/social-4.svg" alt="gpstab-facebook" width="73" height="73">
                     </a>
                     <a href="https://gpstab.com/" target="_blank" class="animated animate__fadeInUp">
