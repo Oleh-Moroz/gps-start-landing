@@ -314,7 +314,7 @@ me get a lt of new customers.
                 </div>
 
                 <div class="plans-button animated animate__fadeInUp">
-                    <a href="https://app.gpstab.com/home/register">Start your 7 day trial</a>
+                    <a href="#regForm">Start your 7 day trial</a>
                 </div>
             </div>
         </div>
@@ -370,7 +370,7 @@ me get a lt of new customers.
                 </div>
 
                 <div class="plans-button animated animate__fadeInUp">
-                    <a href="https://app.gpstab.com/home/register">Start your 7 day trial</a>
+                    <a href="#regForm">Start your 7 day trial</a>
                 </div>
             </div>
         </div>
