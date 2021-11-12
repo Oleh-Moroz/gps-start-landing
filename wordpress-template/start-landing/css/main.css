@@ -1,4 +1,4 @@
-@import "../start-landing/css/animate.css";
+@import "../css/animate.css";
 
 html {
   background: #fff;
@@ -176,7 +176,7 @@ header {
 }
 header::before {
   content: "";
-  background: url('../start-landing/img/bg-header.webp') center/cover no-repeat;
+  background: url('../img/bg-header.webp') center/cover no-repeat;
   display: block;
   z-index: -1;
   position: absolute;
@@ -353,7 +353,7 @@ header::before {
 }
 
 .main-form-button-row button::after {
-  content: url("../start-landing/img/arrow.webp");
+  content: url("../img/arrow.webp");
   margin-left: 14px;
   width: 30px;
   margin-top: 0px;
@@ -365,7 +365,7 @@ header::before {
 }
 
 .main-form-button-row button#prevBtn::before {
-  content: url("../start-landing/img/arrow.webp");
+  content: url("../img/arrow.webp");
   margin-right: 14px;
   width: 30px;
   margin-bottom: 0px;
@@ -374,7 +374,7 @@ header::before {
 }
 
 .submit-button::after {
-  content: url("../start-landing/img/arrow.webp");
+  content: url("../img/arrow.webp");
   margin-left: 14px;
   width: 30px;
   margin-top: -7px;
@@ -716,7 +716,7 @@ h2.section-title {
 }
 
 .hours-red::before {
-  content: url('../start-landing/img/arrow-red.webp');
+  content: url('../img/arrow-red.webp');
   position: absolute;
   left: -50px;
   top: -33px;
@@ -733,7 +733,7 @@ h2.section-title {
 }
 
 .hours-green::before {
-  content: url('../start-landing/img/arrow-green.webp');
+  content: url('../img/arrow-green.webp');
   position: absolute;
   left: -16px;
   top: -20px;
@@ -768,7 +768,7 @@ h2.section-title {
 }
 
 .plans-description-red::before {
-  content: url('../start-landing/img/plans-1-ico.svg');
+  content: url('../img/plans-1-ico.svg');
   margin-right: 20px;
 }
 
@@ -777,7 +777,7 @@ h2.section-title {
 }
 
 .plans-description-green::before {
-  content: url('../start-landing/img/plans-2-ico.svg');
+  content: url('../img/plans-2-ico.svg');
   margin-right: 20px;
 }
 
@@ -806,7 +806,7 @@ h2.section-title {
 }
 
 .plans-button a::after {
-  content: url('../start-landing/img/arrow.webp');
+  content: url('../img/arrow.webp');
   margin-left: 14px;
   width: 30px;
   margin-top: -7px;
@@ -835,14 +835,14 @@ h2.section-title {
   position: relative;
   width: 100%;
   height: 100%;
-  background: url('../start-landing/img/video-bg.webp') center / cover no-repeat;
+  background: url('../img/video-bg.webp') center / cover no-repeat;
 } 
 
 .video-player-block-second .video-youtube {
   position: relative;
   width: 100%;
   height: 100%;
-  background: url('../start-landing/img/video-bg-2.webp') center / cover no-repeat;
+  background: url('../img/video-bg-2.webp') center / cover no-repeat;
 } 
 
 .video-youtube__content {
@@ -856,7 +856,7 @@ h2.section-title {
   height: 100%;
   border: none;
   background-color: transparent;
-  background-image: url('../start-landing/img/Button.svg');
+  background-image: url('../img/Button.svg');
   background-size: contain;
   background-repeat: no-repeat;
   display: block;
@@ -878,7 +878,7 @@ h2.section-title {
 }
 
 /*.video-player-block::before {
-  content: url('../start-landing/img/Button.svg');
+  content: url('../img/Button.svg');
   position: absolute;
 }*/
 
@@ -906,7 +906,7 @@ h2.section-title {
 }
 
 .section-list li::before {
-  content: url("../start-landing/img/list-before.svg");
+  content: url("../img/list-before.svg");
   position: absolute;
   left: 0;
   top: 4px;
@@ -922,7 +922,7 @@ h2.section-title {
 }
 
 .video-player-block-second {
-  background: url('../start-landing/img/video-bg-2.webp') center / cover no-repeat;
+  background: url('../img/video-bg-2.webp') center / cover no-repeat;
 }
 
 .section-title.footer-form-section_title, h2.section-title.footer-form-section_title {
@@ -998,7 +998,7 @@ h2.section-title {
 
 @media screen and (min-width: 1800px) {
   header::before {
-    background: url("../start-landing/img/bg-header.webp") center 0 /cover no-repeat;
+    background: url("../img/bg-header.webp") center 0 /cover no-repeat;
     min-height: 760px;
   }
 
