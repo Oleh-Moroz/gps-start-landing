@@ -230,8 +230,8 @@ me get a lt of new customers.
                     </div>
                 </div>
                 <div class="slider_nav">
-                    <span class="text-next"><img src='img/triangle.svg'></span>
-                    <span class="text-prev"><img src='img/triangle.svg'></span>
+                    <span class="text-next"><img src='<?= get_template_directory_uri()?>/start-landing/img/triangle.svg'></span>
+                    <span class="text-prev"><img src='<?= get_template_directory_uri()?>/start-landing/img/triangle.svg'></span>
                 </div>
             </div>
         </div>
