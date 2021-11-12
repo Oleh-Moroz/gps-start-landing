@@ -536,7 +536,7 @@ h2.section-title {
 .testimonial-slide .owl-nav button span {
   position: relative;
   left: -3px;
-  top: 1px;
+  top: -2px;
 }
 
 .testimonial-slide .owl-nav button.owl-next {
