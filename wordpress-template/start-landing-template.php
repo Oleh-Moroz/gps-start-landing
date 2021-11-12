@@ -15,7 +15,7 @@
                         <div class="col-55 header-content-col animated animate__fadeIn">
                             <h1>More miles, more money with your no-contract ELD provider</h1>
                         </div>
-                        <div class="col-50 main-form-wrap animated animate__fadeIn">
+                        <div id="form-block" class="col-50 main-form-wrap animated animate__fadeIn">
                             <div class="logo">
                                 <img src="<?= get_template_directory_uri()?>/start-landing/img/logo.webp" alt="GPSTab logo" width="78" height="97">
                             </div>
@@ -314,7 +314,7 @@ me get a lt of new customers.
                 </div>
 
                 <div class="plans-button animated animate__fadeInUp">
-                    <a href="#regForm">Start your 7 day trial</a>
+                    <a href="#form-block">Start your 7 day trial</a>
                 </div>
             </div>
         </div>
@@ -370,7 +370,7 @@ me get a lt of new customers.
                 </div>
 
                 <div class="plans-button animated animate__fadeInUp">
-                    <a href="#regForm">Start your 7 day trial</a>
+                    <a href="#form-block">Start your 7 day trial</a>
                 </div>
             </div>
         </div>
